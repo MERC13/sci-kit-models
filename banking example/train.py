@@ -1,12 +1,3 @@
-"""
-Bank term-deposit classification using scikit-learn Pipelines.
-
-This script loads the UCI bank marketing dataset, builds preprocessing + model
-pipelines, evaluates a few classifiers, and saves predictions and a trained
-Random Forest model. Cleaned up from an earlier exploratory script with added
-type hints and documentation.
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
