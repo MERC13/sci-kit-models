@@ -18,19 +18,19 @@ This project incorporates a variety of machine learning models addressing classi
 
 ## Included Models & Techniques
 
-- **Classification**: Logistic Regression, Random Forest, Support Vector Machines, Gradient Boosted Trees, K-Nearest Neighbors, Naive Bayes models, etc.
-- **Regression**: Linear Regression, Ridge, Lasso, ElasticNet, Decision Tree Regressor, Gradient Boosting Regressor, etc.
-- **Clustering**: K-Means, Agglomerative Clustering, DBSCAN, etc.
-- **Feature Engineering & Preprocessing**: Scaling, encoding, imputation, dimensionality reduction techniques
-- **Performance Evaluation**: Confusion matrix, accuracy, precision, recall, F1-score, ROC-AUC for classification; MSE, RMSE, MAE for regression
+- **Classification**: Random Forest, Support Vector Machines, K-Nearest Neighbors, Naive Bayes models, etc.
+- **Regression**: Linear or Logistic
+- **Clustering**: K-Means
+- **Feature Engineering & Preprocessing**: Scaling, encoding, etc.
+- **Performance Evaluation**: Confusion matrix, accuracy, precision, recall, etc.
 
 ---
 
 ## How to Use
 
 1. Clone the repository:  
-`git clone https://github.com/yourusername/scikit-learn-models-portfolio.git
-cd scikit-learn-models-portfolio`
+`git clone [https://github.com/yourusername/scikit-learn-models-portfolio.git](https://github.com/MERC13/sci-kit-models)
+cd sci-kit-models`
 
 
 2. Create and activate a conda environment with required dependencies:  
@@ -41,22 +41,6 @@ conda activate mlportfolio`
 3. Run the Python scripts or Jupyter notebooks to explore each model and dataset.
 
 ---
-
-## Why This Portfolio?
-
-- Designed to showcase **strong foundational knowledge** in classical machine learning.
-- Provides real-world, applied examples with clean, modular, and well-documented code.
-- Supports continuous learning with room for adding deep learning or NLP projects.
-- Perfect for sharing on LinkedIn or resumes to demonstrate practical skills to recruiters or collaborators.
-
----
-
-## Connect With Me
-
-I welcome feedback, collaboration, or potential job opportunities! Feel free to reach out:
-
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-- **Email**: your.email@example.com
 
 Thank you for visiting my portfolio repository. I hope these projects demonstrate my passion and expertise in machine learning.
 
