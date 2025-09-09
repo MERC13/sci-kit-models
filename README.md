@@ -1,46 +1,40 @@
-# Scikit-Learn Models Portfolio
+# scikit-learn models portfolio
 
-Welcome to my **Scikit-Learn Models Portfolio** repository! This collection showcases a diverse set of machine learning models built using the popular Python library [scikit-learn](https://scikit-learn.org). It reflects hands-on experience and practical proficiency with data preprocessing, classical machine learning algorithms, model evaluation, and tuning.
+This repo collects small, focused examples of classic ML with scikit-learn: classification, regression, and clustering. Each folder is a self-contained script or mini-app with minimal setup.
 
----
+## Quick start
 
-## About This Repository
+Use a virtual environment and install the pinned dependencies.
 
-This project incorporates a variety of machine learning models addressing classification, regression, and clustering tasks, demonstrating a well-rounded skill set in supervised and unsupervised learning. Each example includes code following best practices such as:
+```powershell
+# Clone
+git clone https://github.com/MERC13/sci-kit-models.git
+cd sci-kit-models
 
-- Proper data cleaning and feature engineering
-- Use of pipelines for streamlined workflows
-- Model training and validation with cross-validation
-- Clear evaluation metrics and model interpretability
+# Create & activate venv (Windows PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate
 
----
+# Install deps
+pip install -r requirements.txt
+```
 
-## Included Models & Techniques
+Then open any folder below and follow its README for run steps.
 
-- **Classification**: Random Forest, Support Vector Machines, K-Nearest Neighbors, Naive Bayes models, etc.
-- **Regression**: Linear or Logistic
-- **Clustering**: K-Means
-- **Feature Engineering & Preprocessing**: Scaling, encoding, etc.
-- **Performance Evaluation**: Confusion matrix, accuracy, precision, recall, etc.
+## What’s inside
 
----
+- banking example — Bank marketing classification with multiple models and pipelines.
+- K-Means-Clustering — K-Means on Breast Cancer and Palmer Penguins datasets.
+- KNN — K-Nearest Neighbors on the Wine dataset.
+- Naive-Bayes — Multinomial NB on 20 Newsgroups (TF–IDF).
+- Random-Forest — Titanic survival prediction with a Random Forest.
+- Regression/ufos — Train a simple logistic regression and a tiny Flask web app.
+- SVM/cuisinerecommender — Linear SVM trained on cuisines, exports ONNX.
 
-## How to Use
+See each folder’s README for: dataset, how to run, and outputs/screens.
 
-1. Clone the repository:  
-`git clone [https://github.com/yourusername/scikit-learn-models-portfolio.git](https://github.com/MERC13/sci-kit-models)
-cd sci-kit-models`
+## Notes
 
+- Python 3.10+ recommended. Datasets fetched via scikit-learn or seaborn will download on first run.
+- Some examples visualize with matplotlib/seaborn; running in a headful environment is recommended.
 
-2. Create and activate a conda environment with required dependencies:  
-`conda create -n mlportfolio python=3.13 scikit-learn pandas numpy matplotlib seaborn -y
-conda activate mlportfolio`
-
-
-3. Run the Python scripts or Jupyter notebooks to explore each model and dataset.
-
----
-
-Thank you for visiting my portfolio repository. I hope these projects demonstrate my passion and expertise in machine learning.
-
----
