@@ -1,3 +1,0 @@
-skl2onnx
-pandas
-scikit-learn
