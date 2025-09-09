@@ -7,7 +7,7 @@ from skl2onnx import convert_sklearn
 from skl2onnx.common.data_types import FloatTensorType
 
 
-data = pd.read_csv('../data/cleaned_cuisines.csv')
+data = pd.read_csv('cleaned_cuisines.csv')
 
 X = data.iloc[:,2:]
 
