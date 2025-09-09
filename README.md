@@ -11,7 +11,6 @@ This project incorporates a variety of machine learning models addressing classi
 - Proper data cleaning and feature engineering
 - Use of pipelines for streamlined workflows
 - Model training and validation with cross-validation
-- Hyperparameter tuning with grid and randomized search
 - Clear evaluation metrics and model interpretability
 
 ---
