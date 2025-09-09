@@ -229,15 +229,12 @@ def main() -> None:
         pipe.fit(X_train, y_train)
         evaluations[name] = evaluate(pipe, X_test, y_test)
 
-    # Optionally visualize comparison (commented to avoid blocking in headless runs)
-    # plot_comparison(evaluations)
+    plot_comparison(evaluations)
 
-    # Persist the Random Forest pipeline and write predictions CSV
     rf_model = pipes["rf"]
     dump(rf_model, MODEL_PATH)
     preview_df = save_predictions_csv(rf_model, df, PREDICTION_CSV)
 
-    # Print compact summary
     rf_eval = evaluations["rf"]
     print(
         f"Random Forest — Acc: {rf_eval.acc:.3f}, Prec: {rf_eval.prec:.3f}, Rec: {rf_eval.rec:.3f}, "
@@ -248,4 +245,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-# print('Precision:', best_grid_eval['prec'])
