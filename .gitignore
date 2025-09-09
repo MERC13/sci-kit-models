@@ -1,0 +1,10 @@
+*
+!*.py
+*
+!**/
+!*.py
+!*.txt
+!*.html
+!*.pkl
+!*.css
+!.gitignore
